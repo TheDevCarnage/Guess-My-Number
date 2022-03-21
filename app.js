@@ -38,28 +38,6 @@ document.querySelector('.check').addEventListener('click', function() {
     else{
         document.querySelector('.message').textContent = 'Sorry !! You Lost🤯';
     } 
-    // else if (guess > secretNumber){
-       
-    //     if (score > 1 ){ 
-    //         score--; 
-    //         document.querySelector('.score').textContent = score;
-    //         document.querySelector('.message').textContent = '💚too High';
-    //     } 
-    //     else{
-    //         document.querySelector('.message').textContent = 'Sorry !! You Lost🤯';
-    //     } 
-    // } 
-    // else if (guess < secretNumber){
-
-    //     if (score > 1 ){
-    //         score--;
-    //         document.querySelector('.score').textContent = score;
-    //         document.querySelector('.message').textContent = '💚too Low';
-    //     } 
-    //     else{
-    //         document.querySelector('.message').textContent = 'Sorry !! You Lost🤯';
-    //     }  
-    // }
 })
 
 
